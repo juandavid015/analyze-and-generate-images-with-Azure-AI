@@ -23,7 +23,6 @@ export const generateImage = async (prompt) => {
             prompt,
             n: 1,
         });
-        // console.log(response.data[0]);
         return response.data[0]
 
     } catch (error) {
